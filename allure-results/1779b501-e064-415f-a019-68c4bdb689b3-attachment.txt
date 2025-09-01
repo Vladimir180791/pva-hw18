@@ -1,0 +1,11 @@
+2025-09-01 18:15:17,820 - utils.logger - INFO - 🚀 Starting test: test_nonexistent_url
+/bin/sh: 1: google-chrome: not found
+/bin/sh: 1: google-chrome-stable: not found
+/bin/sh: 1: google-chrome-beta: not found
+/bin/sh: 1: google-chrome-dev: not found
+/bin/sh: 1: google-chrome: not found
+/bin/sh: 1: google-chrome-stable: not found
+/bin/sh: 1: google-chrome-beta: not found
+/bin/sh: 1: google-chrome-dev: not found
+2025-09-01 18:15:17,831 - utils.logger - ERROR - ❌ Failed to start browser: 'NoneType' object has no attribute 'split'
+2025-09-01 18:15:17,865 - utils.logger - INFO - ✅ Finished test: test_nonexistent_url

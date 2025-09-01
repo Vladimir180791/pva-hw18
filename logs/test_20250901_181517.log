@@ -1,0 +1,12 @@
+2025-09-01 18:15:17,716 - utils.logger - INFO - 🚀 Starting test: test_google_homepage
+2025-09-01 18:15:17,727 - utils.logger - ERROR - ❌ Failed to start browser: 'NoneType' object has no attribute 'split'
+2025-09-01 18:15:17,768 - utils.logger - INFO - ✅ Finished test: test_google_homepage
+2025-09-01 18:15:17,772 - utils.logger - INFO - 🚀 Starting test: test_wikipedia_search
+2025-09-01 18:15:17,783 - utils.logger - ERROR - ❌ Failed to start browser: 'NoneType' object has no attribute 'split'
+2025-09-01 18:15:17,817 - utils.logger - INFO - ✅ Finished test: test_wikipedia_search
+2025-09-01 18:15:17,820 - utils.logger - INFO - 🚀 Starting test: test_nonexistent_url
+2025-09-01 18:15:17,831 - utils.logger - ERROR - ❌ Failed to start browser: 'NoneType' object has no attribute 'split'
+2025-09-01 18:15:17,865 - utils.logger - INFO - ✅ Finished test: test_nonexistent_url
+2025-09-01 18:15:17,868 - utils.logger - INFO - 🚀 Starting test: test_comprehensive_success
+2025-09-01 18:15:17,879 - utils.logger - ERROR - ❌ Failed to start browser: 'NoneType' object has no attribute 'split'
+2025-09-01 18:15:17,892 - utils.logger - INFO - ✅ Finished test: test_comprehensive_success

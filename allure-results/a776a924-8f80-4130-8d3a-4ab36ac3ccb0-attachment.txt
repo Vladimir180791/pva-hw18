@@ -1,0 +1,1 @@
+2025-09-01 18:22:30,612 - utils.logger - WARNING - Error message: Invalid credentials

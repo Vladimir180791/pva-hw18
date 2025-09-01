@@ -1,0 +1,8 @@
+[32mINFO    [0m utils.logger:base_page.py:11 Opening URL: https://example.com/login
+[32mINFO    [0m utils.logger:login_page.py:13 Attempting login with username: test_user
+[32mINFO    [0m utils.logger:base_page.py:29 Typing text 'test_user' into element: username_input
+[35mDEBUG   [0m utils.logger:base_page.py:17 Looking for element: username_input
+[32mINFO    [0m utils.logger:base_page.py:29 Typing text 'password123' into element: password_input
+[35mDEBUG   [0m utils.logger:base_page.py:17 Looking for element: password_input
+[32mINFO    [0m utils.logger:base_page.py:23 Clicking on element: login_button
+[35mDEBUG   [0m utils.logger:base_page.py:17 Looking for element: login_button

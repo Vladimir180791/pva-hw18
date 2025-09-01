@@ -1,0 +1,8 @@
+2025-09-01 18:22:30,608 - utils.logger - INFO - Opening URL: https://example.com/login
+2025-09-01 18:22:30,608 - utils.logger - INFO - Attempting login with username: test_user
+2025-09-01 18:22:30,608 - utils.logger - INFO - Typing text 'test_user' into element: username_input
+2025-09-01 18:22:30,608 - utils.logger - DEBUG - Looking for element: username_input
+2025-09-01 18:22:30,609 - utils.logger - INFO - Typing text 'password123' into element: password_input
+2025-09-01 18:22:30,609 - utils.logger - DEBUG - Looking for element: password_input
+2025-09-01 18:22:30,609 - utils.logger - INFO - Clicking on element: login_button
+2025-09-01 18:22:30,609 - utils.logger - DEBUG - Looking for element: login_button

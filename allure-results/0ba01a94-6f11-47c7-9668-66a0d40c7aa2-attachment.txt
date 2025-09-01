@@ -1,0 +1,8 @@
+[32mINFO    [0m utils.logger:login_page.py:13 Attempting login with username: invalid
+[32mINFO    [0m utils.logger:base_page.py:29 Typing text 'invalid' into element: username_input
+[35mDEBUG   [0m utils.logger:base_page.py:17 Looking for element: username_input
+[32mINFO    [0m utils.logger:base_page.py:29 Typing text 'wrong' into element: password_input
+[35mDEBUG   [0m utils.logger:base_page.py:17 Looking for element: password_input
+[32mINFO    [0m utils.logger:base_page.py:23 Clicking on element: login_button
+[35mDEBUG   [0m utils.logger:base_page.py:17 Looking for element: login_button
+[33mWARNING [0m utils.logger:login_page.py:22 Error message: Invalid credentials

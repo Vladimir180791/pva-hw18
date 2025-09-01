@@ -1,0 +1,31 @@
+2025-08-27 19:09:59,160 - utils.logger - INFO - Opening URL: https://example.com/login
+2025-08-27 19:09:59,161 - utils.logger - INFO - Attempting login with username: test_user
+2025-08-27 19:09:59,161 - utils.logger - INFO - Typing text 'test_user' into element: username_input
+2025-08-27 19:09:59,161 - utils.logger - DEBUG - Looking for element: username_input
+2025-08-27 19:09:59,161 - utils.logger - INFO - Typing text 'password123' into element: password_input
+2025-08-27 19:09:59,162 - utils.logger - DEBUG - Looking for element: password_input
+2025-08-27 19:09:59,162 - utils.logger - INFO - Clicking on element: login_button
+2025-08-27 19:09:59,162 - utils.logger - DEBUG - Looking for element: login_button
+2025-08-27 19:09:59,164 - utils.logger - WARNING - Error message: Invalid credentials
+2025-08-27 19:09:59,192 - utils.logger - INFO - Attempting login with username: user1
+2025-08-27 19:09:59,192 - utils.logger - INFO - Typing text 'user1' into element: username_input
+2025-08-27 19:09:59,192 - utils.logger - DEBUG - Looking for element: username_input
+2025-08-27 19:09:59,193 - utils.logger - INFO - Typing text 'pass1' into element: password_input
+2025-08-27 19:09:59,193 - utils.logger - DEBUG - Looking for element: password_input
+2025-08-27 19:09:59,193 - utils.logger - INFO - Clicking on element: login_button
+2025-08-27 19:09:59,193 - utils.logger - DEBUG - Looking for element: login_button
+2025-08-27 19:09:59,196 - utils.logger - INFO - Attempting login with username: user2
+2025-08-27 19:09:59,196 - utils.logger - INFO - Typing text 'user2' into element: username_input
+2025-08-27 19:09:59,196 - utils.logger - DEBUG - Looking for element: username_input
+2025-08-27 19:09:59,197 - utils.logger - INFO - Typing text 'pass2' into element: password_input
+2025-08-27 19:09:59,197 - utils.logger - DEBUG - Looking for element: password_input
+2025-08-27 19:09:59,197 - utils.logger - INFO - Clicking on element: login_button
+2025-08-27 19:09:59,197 - utils.logger - DEBUG - Looking for element: login_button
+2025-08-27 19:09:59,201 - utils.logger - INFO - Attempting login with username: invalid
+2025-08-27 19:09:59,201 - utils.logger - INFO - Typing text 'invalid' into element: username_input
+2025-08-27 19:09:59,201 - utils.logger - DEBUG - Looking for element: username_input
+2025-08-27 19:09:59,201 - utils.logger - INFO - Typing text 'wrong' into element: password_input
+2025-08-27 19:09:59,202 - utils.logger - DEBUG - Looking for element: password_input
+2025-08-27 19:09:59,202 - utils.logger - INFO - Clicking on element: login_button
+2025-08-27 19:09:59,202 - utils.logger - DEBUG - Looking for element: login_button
+2025-08-27 19:09:59,202 - utils.logger - WARNING - Error message: Invalid credentials

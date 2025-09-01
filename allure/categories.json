@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "name": "Ignored tests",
+      "matchedStatuses": ["skipped"]
+    },
+    {
+      "name": "Product defects",
+      "matchedStatuses": ["failed"],
+      "messageRegex": ".*AssertionError.*"
+    },
+    {
+      "name": "Test defects",
+      "matchedStatuses": ["broken"]
+    },
+    {
+      "name": "Passed tests",
+      "matchedStatuses": ["passed"]
+    }
+  ]
+}

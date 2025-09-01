@@ -1,0 +1,8 @@
+2025-09-01 18:22:30,653 - utils.logger - INFO - Attempting login with username: invalid
+2025-09-01 18:22:30,653 - utils.logger - INFO - Typing text 'invalid' into element: username_input
+2025-09-01 18:22:30,653 - utils.logger - DEBUG - Looking for element: username_input
+2025-09-01 18:22:30,653 - utils.logger - INFO - Typing text 'wrong' into element: password_input
+2025-09-01 18:22:30,653 - utils.logger - DEBUG - Looking for element: password_input
+2025-09-01 18:22:30,654 - utils.logger - INFO - Clicking on element: login_button
+2025-09-01 18:22:30,654 - utils.logger - DEBUG - Looking for element: login_button
+2025-09-01 18:22:30,654 - utils.logger - WARNING - Error message: Invalid credentials

@@ -1,0 +1,48 @@
+2025-08-27 19:12:51,255 - utils.logger - INFO - 🚀 Starting test: test_successful_demo
+2025-08-27 19:12:51,256 - utils.logger - INFO - Opening URL: https://example.com/login
+2025-08-27 19:12:51,256 - utils.logger - INFO - Attempting login with username: test_user
+2025-08-27 19:12:51,257 - utils.logger - INFO - Typing text 'test_user' into element: username_input
+2025-08-27 19:12:51,257 - utils.logger - DEBUG - Looking for element: username_input
+2025-08-27 19:12:51,257 - utils.logger - INFO - Typing text 'password123' into element: password_input
+2025-08-27 19:12:51,257 - utils.logger - DEBUG - Looking for element: password_input
+2025-08-27 19:12:51,257 - utils.logger - INFO - Clicking on element: login_button
+2025-08-27 19:12:51,258 - utils.logger - DEBUG - Looking for element: login_button
+2025-08-27 19:12:51,259 - utils.logger - INFO - ✅ Finished test: test_successful_demo
+2025-08-27 19:12:51,261 - utils.logger - INFO - 🚀 Starting test: test_failed_demo
+2025-08-27 19:12:51,262 - utils.logger - WARNING - Error message: Invalid credentials
+2025-08-27 19:12:51,283 - utils.logger - WARNING - Created error report for failed test: test_failed_demo
+2025-08-27 19:12:51,283 - utils.logger - INFO - ✅ Finished test: test_failed_demo
+2025-08-27 19:12:51,285 - utils.logger - INFO - 🚀 Starting test: test_parametrized_login[user1-pass1-True]
+2025-08-27 19:12:51,286 - utils.logger - INFO - Attempting login with username: user1
+2025-08-27 19:12:51,286 - utils.logger - INFO - Typing text 'user1' into element: username_input
+2025-08-27 19:12:51,286 - utils.logger - DEBUG - Looking for element: username_input
+2025-08-27 19:12:51,286 - utils.logger - INFO - Typing text 'pass1' into element: password_input
+2025-08-27 19:12:51,286 - utils.logger - DEBUG - Looking for element: password_input
+2025-08-27 19:12:51,286 - utils.logger - INFO - Clicking on element: login_button
+2025-08-27 19:12:51,287 - utils.logger - DEBUG - Looking for element: login_button
+2025-08-27 19:12:51,288 - utils.logger - INFO - ✅ Finished test: test_parametrized_login[user1-pass1-True]
+2025-08-27 19:12:51,290 - utils.logger - INFO - 🚀 Starting test: test_parametrized_login[user2-pass2-True]
+2025-08-27 19:12:51,291 - utils.logger - INFO - Attempting login with username: user2
+2025-08-27 19:12:51,291 - utils.logger - INFO - Typing text 'user2' into element: username_input
+2025-08-27 19:12:51,292 - utils.logger - DEBUG - Looking for element: username_input
+2025-08-27 19:12:51,292 - utils.logger - INFO - Typing text 'pass2' into element: password_input
+2025-08-27 19:12:51,292 - utils.logger - DEBUG - Looking for element: password_input
+2025-08-27 19:12:51,292 - utils.logger - INFO - Clicking on element: login_button
+2025-08-27 19:12:51,292 - utils.logger - DEBUG - Looking for element: login_button
+2025-08-27 19:12:51,294 - utils.logger - INFO - ✅ Finished test: test_parametrized_login[user2-pass2-True]
+2025-08-27 19:12:51,296 - utils.logger - INFO - 🚀 Starting test: test_parametrized_login[invalid-wrong-False]
+2025-08-27 19:12:51,297 - utils.logger - INFO - Attempting login with username: invalid
+2025-08-27 19:12:51,297 - utils.logger - INFO - Typing text 'invalid' into element: username_input
+2025-08-27 19:12:51,297 - utils.logger - DEBUG - Looking for element: username_input
+2025-08-27 19:12:51,297 - utils.logger - INFO - Typing text 'wrong' into element: password_input
+2025-08-27 19:12:51,297 - utils.logger - DEBUG - Looking for element: password_input
+2025-08-27 19:12:51,298 - utils.logger - INFO - Clicking on element: login_button
+2025-08-27 19:12:51,298 - utils.logger - DEBUG - Looking for element: login_button
+2025-08-27 19:12:51,298 - utils.logger - WARNING - Error message: Invalid credentials
+2025-08-27 19:12:51,300 - utils.logger - INFO - ✅ Finished test: test_parametrized_login[invalid-wrong-False]
+2025-08-27 19:12:51,302 - utils.logger - INFO - 🚀 Starting test: test_with_multiple_assertions
+2025-08-27 19:12:51,303 - utils.logger - INFO - Opening URL: https://test.com
+2025-08-27 19:12:51,303 - utils.logger - INFO - Clicking on element: button
+2025-08-27 19:12:51,303 - utils.logger - DEBUG - Looking for element: button
+2025-08-27 19:12:51,303 - utils.logger - DEBUG - Getting text from element: element
+2025-08-27 19:12:51,304 - utils.logger - INFO - ✅ Finished test: test_with_multiple_assertions

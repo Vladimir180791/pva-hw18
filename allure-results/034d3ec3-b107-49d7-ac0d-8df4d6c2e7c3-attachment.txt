@@ -1,0 +1,24 @@
+[33mWARNING [0m selenium.webdriver.common.selenium_manager:selenium_manager.py:135 The chromedriver version (120.0.6099.109) detected in PATH at /usr/local/bin/chromedriver might not be compatible with the detected chrome version (139.0.7258.154); currently, chromedriver 139.0.7258.154 is recommended for chrome 139.*, so it is advised to delete the driver in PATH and retry
+[31m[1mERROR   [0m root:conftest.py:56 Failed to initialize browser: Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 139.0.7258.154 with binary path /usr/bin/google-chrome
+Stacktrace:
+#0 0x572233a1df83 <unknown>
+#1 0x5722336d6cf7 <unknown>
+#2 0x5722337145db <unknown>
+#3 0x5722337136ed <unknown>
+#4 0x57223370e9a0 <unknown>
+#5 0x57223370b26e <unknown>
+#6 0x57223375b80c <unknown>
+#7 0x57223374fe53 <unknown>
+#8 0x572233717dd4 <unknown>
+#9 0x5722337191de <unknown>
+#10 0x5722339e2531 <unknown>
+#11 0x5722339e6455 <unknown>
+#12 0x5722339cef55 <unknown>
+#13 0x5722339e70ef <unknown>
+#14 0x5722339b299f <unknown>
+#15 0x572233a0b008 <unknown>
+#16 0x572233a0b1d7 <unknown>
+#17 0x572233a1d124 <unknown>
+#18 0x752c843d8aa4 <unknown>
+#19 0x752c84465c3c <unknown>

@@ -1,0 +1,26 @@
+[33mWARNING [0m selenium.webdriver.common.selenium_manager:selenium_manager.py:135 The chromedriver version (120.0.6099.109) detected in PATH at /usr/local/bin/chromedriver might not be compatible with the detected chrome version (139.0.7258.154); currently, chromedriver 139.0.7258.154 is recommended for chrome 139.*, so it is advised to delete the driver in PATH and retry
+[33mWARNING [0m root:conftest.py:40 Chrome failed, trying Firefox: Message: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 139.0.7258.154 with binary path /usr/bin/google-chrome
+Stacktrace:
+#0 0x64ee8aae9f83 <unknown>
+#1 0x64ee8a7a2cf7 <unknown>
+#2 0x64ee8a7e05db <unknown>
+#3 0x64ee8a7df6ed <unknown>
+#4 0x64ee8a7da9a0 <unknown>
+#5 0x64ee8a7d726e <unknown>
+#6 0x64ee8a82780c <unknown>
+#7 0x64ee8a81be53 <unknown>
+#8 0x64ee8a7e3dd4 <unknown>
+#9 0x64ee8a7e51de <unknown>
+#10 0x64ee8aaae531 <unknown>
+#11 0x64ee8aab2455 <unknown>
+#12 0x64ee8aa9af55 <unknown>
+#13 0x64ee8aab30ef <unknown>
+#14 0x64ee8aa7e99f <unknown>
+#15 0x64ee8aad7008 <unknown>
+#16 0x64ee8aad71d7 <unknown>
+#17 0x64ee8aae9124 <unknown>
+#18 0x7f1f7a1cdaa4 <unknown>
+#19 0x7f1f7a25ac3c <unknown>
+
+[1m[31mERROR   [0m root:conftest.py:54 Failed to initialize any browser: Message: Unable to obtain driver for firefox using Selenium Manager.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location

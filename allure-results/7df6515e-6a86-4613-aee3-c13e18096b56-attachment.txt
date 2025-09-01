@@ -1,0 +1,7 @@
+2025-09-01 18:22:30,647 - utils.logger - INFO - Attempting login with username: user2
+2025-09-01 18:22:30,648 - utils.logger - INFO - Typing text 'user2' into element: username_input
+2025-09-01 18:22:30,648 - utils.logger - DEBUG - Looking for element: username_input
+2025-09-01 18:22:30,648 - utils.logger - INFO - Typing text 'pass2' into element: password_input
+2025-09-01 18:22:30,648 - utils.logger - DEBUG - Looking for element: password_input
+2025-09-01 18:22:30,648 - utils.logger - INFO - Clicking on element: login_button
+2025-09-01 18:22:30,649 - utils.logger - DEBUG - Looking for element: login_button
